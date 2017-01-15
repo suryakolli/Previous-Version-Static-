@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">IndiaELearn</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_tab1learning">tab1learning</string>
+    <string name="title_activity_government_section">Government Section</string>
+    <string-array name="array_government_courses">
+        <item>SBI PO EXAM 2017</item>
+        <item>SSC CGL EXAM 2017</item>
+        <item>RBI GRADE B EXAM 2017</item>
+        <item>INDIAN RAILWAYS EXAM 2017</item>
+        <item>LIC AAO EXAM 2017</item>
+        <item>IBPS SO EXAM 2017</item>
+        <item>IBPS CLERK EXAM 2017</item>
+        <item>SBI CLERK EXAM 2017</item>
+        <item>TET EXAM 2017</item>
+        <item>UPSC EXAM 2017</item>
+
+
+    </string-array>
+    <string-array name="array_entrepreneur_courses">
+        <item>B-PLAN</item>
+    </string-array>
+
+    <string-array name="array_programming_courses">
+        <item>CSS</item>
+        <item>HTML</item>
+        <item>ANDROID</item>
+        <item>PYTHON</item>
+        <item>JAVA PROGRAMMING</item>
+        <item>C++ PROGRAMMING</item>
+        <item>C PROGRAMMING</item>
+    </string-array>
+
+    <string-array name="array_technology_courses">
+        <item>DIGITAL MARKETING</item>
+        <item>BLOGGING</item>
+
+    </string-array>
+
+    <string name="title_activity_entrepreneur_section">Entrepreneur Section</string>
+    <string name="title_activity_programming_section">Programming Section</string>
+    <string name="title_activity_technology_section">technologySection</string>
+
+    <string name="tab_community_str_show_pass">Show Password</string>
+    <string name="tab_community_str_btn_login">Login</string>
+    <string name="tab_community_hint_enter_username_email">Enter Username or Email</string>
+    <string name="tab_community_hint_enter_password">Password</string>
+    <string name="tab_community_link_to_register">Not have an account?Sign Up.</string>
+    <string name="tab_community_link_to_login">Already Registered.Login Me</string>
+    <string name="tab_community_register_hint_name">Full Name</string>
+    <string name="tab_community_register_hint_username">Username</string>
+    <string name="tab_community_register_hint_password">Password</string>
+    <string name="tab_community_register_hint_email">Email</string>
+    <string name="tab_community_btn_register">Register</string>
+    <string name="tab_community_open_drawer">technologySection</string>
+    <string name="tab_community_close_drawer">technologySection</string>
+    <string name="title_activity_navigation_drawer">Discover</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_navigate_to_government">Discover</string>
+    <string name="title_activity_navigate_to_programming">Discover</string>
+    <string name="title_activity_navigate_to_technology">Discover</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Course Description For B Plan -->
+    <string name="course_description_title">Course Description</string>
+    <string name="course_description_bplan_part1">A Business Plan is a formal statement of Business Goals,Reasons they are attainable,and plans for reaching them.It may also contain background information about the organisation or team attempting to reach their goals.</string>
+    <string name="course_description_bplan_part2">When the existing business is to assume major change or when planning a new venture,a 3 to 5 year business plan is required</string>
+    <string name="course_description_bplan_part3">Perception is the process by which a person selects, organises, and interprets stimuli to create a meaningful picture of the world</string>
+    <string name="course_description_bplan_part4">http://businesswales.gov.wales/zones/starting-up</string>
+    <string name="course_description_certificate">Certificate:</string>
+    <string name="course_description_bplan_part5">Send us a screenshot of your Quiz if you pass the exam.Mail us:certificate@indiaelearn.com.We will get back to you within 48 hours.</string>
+
+    <!-- Curriculum For B Plan -->
+    <string name="curriculum_lecture1">What is Digital Marketing? Why Digital Marketing? How to do Digital Marketing?</string>
+    <string name="curriculum_lecture2">On Page Search Engine Optimization(SEO)Training course</string>
+    <string name="curriculum_lecture3">Off page SEO-off page Search Engine Optimisation training</string>
+    <string name="curriculum_lecture4">Hoe google Analytics Work? Conversion,Attribution,Bounce rate,Dimension and Metrics</string>
+    <string name="curriculum_lecture5">Learn How to do Social Media Marketing?Facebook page and Facebook ad creation</string>
+    <string name="curriculum_lecture6">Adword Campaign Setup Introduction|PPC|SEM|SEARCH AD|PAID AD</string>
+    <string name="curriculum_lecture7">ADWORD:ADD ad extension |Adding conversation tracking|Display Ad</string>
+    <string name="curriculum_lecture8">Free and self hosted word press website using THEME THEME,WIDGET PLUGINS</string>
+    <string name="curriculum_lecture9">Buy domain,hosting,Website planning and creations using wordpress.</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

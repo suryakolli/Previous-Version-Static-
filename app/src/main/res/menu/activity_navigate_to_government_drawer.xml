@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sbipo"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="SBI PO EXAM 2017" />
+        <item
+            android:id="@+id/nav_ssccgl"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="SSC CGL EXAM 2017" />
+        <item
+            android:id="@+id/nav_rbigradeb"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="RBI GRADE B EXAM 2017" />
+        <item
+            android:id="@+id/nav_indianrailways"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="INDIAN RAILWAYS EXAM 2017" />
+        <item
+            android:id="@+id/nav_licaao"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="LIC AAO EXAM 2017" />
+        <item
+            android:id="@+id/nav_ibpsso"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="IBPS SO EXAM 2017" />
+        <item
+            android:id="@+id/nav_ibpsclerk"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="IBPS CLERK EXAM 2017" />
+        <item
+            android:id="@+id/nav_sbiclerk"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="SBI CLERK EXAM 2017" />
+        <item
+            android:id="@+id/nav_tet"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="TET EXAM 2017" />
+        <item
+            android:id="@+id/nav_upsc"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="UPSC EXAM 2017" />
+    </group>
+
+
+
+</menu>

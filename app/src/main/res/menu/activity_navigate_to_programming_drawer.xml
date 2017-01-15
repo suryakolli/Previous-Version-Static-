@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_css"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="CSS" />
+        <item
+            android:id="@+id/nav_html"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="HTML" />
+        <item
+            android:id="@+id/nav_android"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="ANDROID" />
+        <item
+            android:id="@+id/nav_python"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="PYTHON" />
+        <item
+            android:id="@+id/nav_javaprogramming"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="JAVA PROGRAMMING" />
+        <item
+            android:id="@+id/nav_cprogramming"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="C PROGRAMMING" />
+        <item
+            android:id="@+id/nav_cppprogramming"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="C++ PROGRAMMING" />
+    </group>
+
+
+
+</menu>

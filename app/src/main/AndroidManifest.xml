@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mania.indiaelearn">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".tab1learning"
+            android:label="@string/title_activity_tab1learning"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".governmentSection"
+            android:label="@string/title_activity_government_section"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".programmingSection"
+            android:label="@string/title_activity_programming_section"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".technologySection"
+            android:label="@string/title_activity_technology_section"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CommunityRegisterActivity" />
+        <activity
+            android:name=".navigateToEntrepreneur"
+            android:label="@string/title_activity_navigation_drawer"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigateToGovernment"
+            android:label="@string/title_activity_navigate_to_government"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mania.indiaelearn.MainActivity" />
+        </activity>
+        <activity
+            android:name=".navigateToProgramming"
+            android:label="@string/title_activity_navigate_to_programming"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mania.indiaelearn.MainActivity" />
+        </activity>
+        <activity
+            android:name=".navigateToTechnology"
+            android:label="@string/title_activity_navigate_to_technology"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mania.indiaelearn.MainActivity" />
+        </activity>
+
+        <activity android:name=".CommunityActivity"
+            android:parentActivityName=".CommunityLogin">
+        </activity>
+        <activity android:name=".Community_Upload_Activity">
+        </activity>
+        <activity android:name=".CommunityLogin">
+        </activity>
+    </application>
+
+</manifest>

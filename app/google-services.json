@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "548936699984",
+    "project_id": "elearn-155420"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548936699984:android:86430867432e4940",
+        "android_client_info": {
+          "package_name": "com.mania.indiaelearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548936699984-umtb54sm5dnsbt540rr9o1vtr13gtafj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mania.indiaelearn",
+            "certificate_hash": "4F56C2553D0B0904FEED69F29863E72E2A72DBF8"
+          }
+        },
+        {
+          "client_id": "548936699984-cqa5ob6idlu9spja3iljn0d2v7d3qvht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnMp4qPeRH1THmrt3ooFBWBeJolLgAH40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
