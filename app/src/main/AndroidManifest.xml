@@ -70,13 +70,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mania.indiaelearn.MainActivity" />
         </activity>
-
-        <activity android:name=".CommunityActivity"
-            android:parentActivityName=".CommunityLogin">
-        </activity>
-        <activity android:name=".Community_Upload_Activity">
-        </activity>
-        <activity android:name=".CommunityLogin">
+        <activity
+            android:name=".CommunityActivity"
+            android:parentActivityName=".CommunityLogin"></activity>
+        <activity android:name=".Community_Upload_Activity"></activity>
+        <activity android:name=".CommunityLogin"></activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mania.indiaelearn.MainActivity" />
         </activity>
     </application>
 
