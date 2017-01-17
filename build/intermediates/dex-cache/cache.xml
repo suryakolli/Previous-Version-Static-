@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_fc0154036e6f4e5e7c8ff99bd9fc143ffc014f1a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -38,13 +29,13 @@
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_bc5cdf8f15077121f4ca7ff70a7dfd9b0650041a\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_4353bc0f74e94dfdf57d2d5bd4ecd6fe04332dc7\classes.dex" />
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.0.1_4c7dfe5b6e410e8e491bb1dcf87486262e0f47b2.jar" />
     </item>
     <item
         is-multidex="true"
@@ -65,6 +56,42 @@
         <dex dex="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_62ac361bcc2f095ce1c7296832df59a7d36c5dd1\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_2728fd00fba83e243fbef81e75d69b4d33e1eb1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.0.1_0c3991c515f5e5160e196a97ca54a550df3861e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.4.0_7547a7f3a4ada725d6df979a0d85aaca93647ce5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\chand\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_aa54b2cb3e5d610081c063af55571a8705f95879.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
         jumboMode="true"
@@ -72,6 +99,24 @@
         revision="25.0.2"
         sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_01c61a0248ce4165dd77bf5a8f7ef71e41efdea6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-1.3.0_725dfb1af97871ca9161258af56c520a67cd8cd2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.volley-volley-1.0.0_18325a0667d11eaa5e81d353694fc057071c4c1f.jar" />
     </item>
     <item
         is-multidex="true"
@@ -83,13 +128,13 @@
         <dex dex="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_5180df7dffe870876c1560e1ef2447e640e61362\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="cef9c4ba9f9a9830fbc5dde530930fb559fbd7fd">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_65322acebf7bb1ff9936303cf0bc9969ede1c9c0\classes.dex" />
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_be5fdd3db238fae132c242a739e2e864d354ef2a.jar" />
     </item>
     <item
         is-multidex="true"
@@ -108,24 +153,6 @@
         revision="25.0.2"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_213897fa53d584c20da74d4d507b493517872204\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_a5321caf9272339a890a22ff626e40509dadf00c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.0.1_256907388a9a6cad486a0350fb278a7bc15bf736\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -156,15 +183,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_ad859f9ab4c6909c7926165a5c8ce721b0256b29\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\chand\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
         jumboMode="true"
         optimize="true"
@@ -180,6 +198,15 @@
         revision="25.0.2"
         sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
         <dex dex="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_56c68016fa91392230ba847a5685eeac6d17e090\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_c76811508d7a9251677716ed9abbede7f6fa03d7.jar" />
     </item>
     <item
         is-multidex="true"
@@ -200,40 +227,22 @@
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_56af503ac2b39ca2868f8855cfa76f3b125dec39\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\10.0.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-10.0.1_14a6291299a6d486b271dc49f70e665070b2b2ab\classes.dex" />
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-base-10.0.1_fc0154036e6f4e5e7c8ff99bd9fc143ffc014f1a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_2728fd00fba83e243fbef81e75d69b4d33e1eb1c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.0.1_4c7dfe5b6e410e8e491bb1dcf87486262e0f47b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_7547a7f3a4ada725d6df979a0d85aaca93647ce5\classes.dex" />
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_4353bc0f74e94dfdf57d2d5bd4ecd6fe04332dc7.jar" />
     </item>
     <item
         is-multidex="true"
@@ -243,24 +252,6 @@
         revision="25.0.2"
         sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_cbf56856ad0fbb62fec491e2affe7c48a72cc758\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="60bc1d451db44a7987815dfa015f717709186f57">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_fa253b338c5bcb2d3d2011f631fa1eaf0b678787\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.0.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.0.1_0c3991c515f5e5160e196a97ca54a550df3861e4\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -279,15 +270,6 @@
         revision="25.0.2"
         sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
         <dex dex="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_ba3122d4500559a683a5e0a0081ba7deb369617d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_18325a0667d11eaa5e81d353694fc057071c4c1f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -318,24 +300,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_be5fdd3db238fae132c242a739e2e864d354ef2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-1.3.0_725dfb1af97871ca9161258af56c520a67cd8cd2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -353,13 +317,31 @@
         <dex dex="C:\Users\chand\AndroidStudioProjects\E-Learn-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_1e8f2f5291cf0776cd592472456ffbb8df1affe4\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.0.1\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="E:\IndiaELearn\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_c76811508d7a9251677716ed9abbede7f6fa03d7\classes.dex" />
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.0.1_256907388a9a6cad486a0350fb278a7bc15bf736.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.4.0_a5321caf9272339a890a22ff626e40509dadf00c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_ad859f9ab4c6909c7926165a5c8ce721b0256b29.jar" />
     </item>
     <item
         is-multidex="true"
@@ -387,6 +369,15 @@
         revision="25.0.2"
         sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
         <dex dex="C:\Users\chand\Desktop\E-Learn\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-10.0.1_1485402daa38610379398042802f035bf309f23d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\IndiaELearn\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\10.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="E:\IndiaELearn\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-auth-10.0.1_14a6291299a6d486b271dc49f70e665070b2b2ab.jar" />
     </item>
     <item
         is-multidex="true"

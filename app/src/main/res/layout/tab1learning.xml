@@ -11,66 +11,68 @@
     tools:context="com.mania.indiaelearn.MainActivity">
 
 
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:stretchColumns="*"
+        android:layout_alignParentStart="true">
 
-        <TableLayout
+        <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignParentTop="true"
-            android:layout_alignWithParentIfMissing="true"
-            android:layout_alignParentStart="true">
+            >
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tech"
+                android:id="@+id/technology"
+                android:onClick="classification"
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/tech"
-                    android:id="@+id/technology"
-                    android:onClick="classification"
-                    android:layout_margin="2dp" />
+                android:layout_margin="2dp" />
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/gov"
-                    android:id="@+id/government"
-                    android:onClick="classification"
-                    android:layout_margin="2dp" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/gov"
+                android:id="@+id/government"
+                android:onClick="classification"
+                android:layout_margin="2dp" />
 
-            </TableRow>
+        </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/entre"
-                    android:id="@+id/entrepreneur"
-                    android:onClick="classification"
-                    android:layout_margin="2dp" />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/entre"
+                android:id="@+id/entrepreneur"
+                android:onClick="classification"
+                android:layout_margin="2dp" />
 
-                <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/prog"
-                    android:id="@+id/programming"
-                    android:onClick="classification"
-                    android:layout_margin="2dp" />
-            </TableRow>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/c"
+                android:id="@+id/programming"
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:onClick="classification"
+                android:layout_margin="2dp" />
+        </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" />
-        </TableLayout>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
 
 
 </RelativeLayout>
