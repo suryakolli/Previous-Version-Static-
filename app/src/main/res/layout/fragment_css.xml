@@ -1,14 +1,412 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mania.indiaelearn.cssFragment"
-    android:background="#9E9E9E">
+    android:background="#F3E5F5">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello From CSS" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
 
-</FrameLayout>
+            <Button
+                android:text="Take This Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/takethiscourse_1"
+                android:background="#023a6a"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="25dp"/>
+            <TextView
+                android:text="@string/course_description_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_title"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_description_css_part1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_part1"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/course_description_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_description_css_part2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_part2"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/course_description_part3"
+                android:layout_marginTop="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_description_css_part3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_part3"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/course_description_part2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:text="Refer Here"
+                android:layout_below="@+id/course_description_part3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/course_description_css_part4"
+                android:autoLink="all"
+                android:clickable="true"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/course_description_part3"
+                android:id="@+id/course_description_part4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_description_certificate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_certificate"
+                android:background="#FFFFFF"
+                android:padding="2dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/course_description_part4"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_description_bplan_part5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_description_part5"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/course_description_certificate"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:text="@string/course_curriculum_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_curriculum"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.1"
+                android:id="@+id/lecture1.1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture1"
+                android:id="@+id/curriculum_lecture1"
+                android:layout_below="@+id/lecture1.1"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.2"
+                android:id="@+id/lecture1.2"
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture2"
+                android:id="@+id/curriculum_lecture2"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.3"
+                android:id="@+id/lecture1.3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture3"
+                android:id="@+id/curriculum_lecture3"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.4"
+                android:id="@+id/lecture1.4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture4"
+                android:id="@+id/curriculum_lecture4"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/curriculum_lecture3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.5"
+                android:id="@+id/lecture1.5"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture5"
+                android:id="@+id/curriculum_lecture5"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.6"
+                android:id="@+id/lecture1.6"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture6"
+                android:id="@+id/curriculum_lecture6"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.6"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.7"
+                android:id="@+id/lecture1.7"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture7"
+                android:id="@+id/curriculum_lecture7"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.7"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.8"
+                android:id="@+id/lecture1.8"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture8"
+                android:id="@+id/curriculum_lecture8"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.8"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:text="Lecture 1.9"
+                android:id="@+id/lecture1.9"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/curriculum_lecture9"
+                android:id="@+id/curriculum_lecture9"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_below="@+id/lecture1.9"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FFFFFF"
+                android:padding="5dp"/>
+            <TextView
+                android:text="@string/course_instructors_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_instructors"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:text="ADMIN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_instructors1"
+                android:background="#FFFFFF"
+                android:layout_below="@+id/course_instructors"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+            <TextView
+                android:text="@string/course_rating_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/course_rating"
+                android:background="#FFFFFF"
+                android:padding="5dp"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ratingBar"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:layout_marginBottom="25dp"
+                />
+
+            <Button
+                android:text="Take This Course"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/takethiscourse_2"
+                android:background="#023a6a"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="25dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

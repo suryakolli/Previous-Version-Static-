@@ -66,9 +66,106 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Course Headings -->
+
+    <string name="course_description_title">Course Description</string>
+    <string name="course_certificate_title">Certificate</string>
+    <string name="course_curriculum_title">Curriculum</string>
+    <string name="course_instructors_title">Instructors</string>
+    <string name="course_rating_title">Rating</string>
+
+    <!-- Course Headings  Complete -->\
+    <!-- COURSE DESCRIPTION FOR IBPS SO-->
+    <string name="course_description_ibpsso_part1">IBPS SO Recruitment 2016 \-2017 </string>
+    <string name="course_description_ibpsso_part2">The institute of banking personal selection has been declared IBPS SO Recruitment 2016\-2017 notication. IBPS will be conducted of IBPS CWE VI exam for fill up specialist officer vacant posts in 23 plus banking systems. Candidates can able to apply from 16th November 2016. </string>
+    <string name="course_description_ibpsso_part3">Applicants can apply for IBPS SO Recruitment 2016\-17 by filling online application on or before 2nd December 2016. As we all know that selection will be done through pre and main written exam and interview. </string>
+    <string name="course_description_ibpsso_part4">The recruitment IBPS SO exam tentatively scheduled to be held in 28th January and 29th January 2017. If you want to get more details then visit the website of www.ibps.in.</string>
+    <string name="course_description_ibpsso_part5">IBPS SO Exam:</string>
+    <string name="course_description_ibpsso_part6">IBPS stands for Institute of banking personnel selection is an organization which offers services to candidates in fields of personnel selection, assessment, and recruitment. </string>
+    <string name="course_description_ibpsso_part7">. IBPS conducts examinations to recruitment in various banking departments in more than 100 cities. It is responsible for recruit manpower in banks according to their needs. The recruitment will be made for 56 Regional Rural banks. Now IBPS is going to conduct IBPS SO Exam 2016 for recruitment of Specialist officer posts. The IBPS SO Recruitment 2016"en dash"2017 application process is likely to start from 16th November 2016 and the last date to apply online is 2nd December 2016. </string>
+
+
+    <!-- COURSE DESCRIPTION FOR IBPS CLERK-->
+    <string name="course_description_ibpsclerk_part1">Exam for the post: </string>
+    <string name="course_description_ibpsclerk_part2"> IBPS CLERK </string>
+    <string name="course_description_ibpsclerk_part3">Exam Conducting Body: </string>
+    <string name="course_description_ibpsclerk_part4"> Institute of Banking Personnel Selection (IBPS)  </string>
+    <string name="course_description_ibpsclerk_part5">Exam Level: </string>
+    <string name="course_description_ibpsclerk_part6">All India level exam.</string>
+    <string name="course_description_ibpsclerk_part7">Posts Offered:</string>
+    <string name="course_description_ibpsclerk_part8"> Clerk (Clerical Cadre) in the following list of  public sector banks. During online registration, you have to fill the preference order of the 19 Nationalized Banks, and to decide which bank to fill on the first order is an important factor. In this article, we will help you to choose the right bank in your preference order of the banks. </string>
+    <string name="course_description_ibpsclerk_part9">IBPS Clerk Eligibility Criteria:</string>
+    <string name="course_description_ibpsclerk_part10"> Candidates applying for IBPS Clerk exam should ensure that they fulfill the following Eligibility Criteria before applying to the said exam. Their candidature ship is deemed to be rejected if they do fulfill the necessary criteria laid down under IBPS Clerk Eligibility Criteria. The different parameters of IBPS Clerk Eligibility Criteria have been mentioned below. </string>
+    <string name="course_description_ibpsclerk_part11">⦁	The aspirant applying for IBPS Clerk exam should hold a graduate or equivalent degree from any centrally recognized university.</string>
+    <string name="course_description_ibpsclerk_part12">⦁	Knowledge of computer is necessary for applying to the said exam. </string>
+
+
+    <!-- COURSE DESCRIPTION FOR BLOGGING-->
+    <string name="course_description_blogging_part1">A blog is a website in which items are posted on a regular basis and displayed in reverse chronological order. </string>
+    <string name="course_description_blogging_part2"> The term blog is a shortened form of weblog or web log. Authoring a blog, maintaining a blog or adding an article to an existing blog is called \“blogging\”. </string>
+    <string name="course_description_blogging_part3">Individual articles on a blog are called \“blog posts,\” \“posts\” or \ “entries\”. A person who posts these entries is called a \“blogger\”. </string>
+    <string name="course_description_blogging_part4">A blog comprises text, hypertext, images, and links (to other web pages and to video, audio and other files). </string>
+    <string name="course_description_blogging_part5">Blogs use a conversational style of documentation. Often blogs focus on a particular \“area of interest\”, such as Washington, D.C.\’s political goings-on.</string>
+
+
+
+    <!-- COURSE DESCRIPTION FOR PYTHON-->
+    <string name="course_description_python_part1">Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. </string>
+    <string name="course_description_python_part2">Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. </string>
+    <string name="course_description_python_part3">Python\'s simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. </string>
+    <string name="course_description_python_part4">Python supports modules and packages, which encourages program modularity and code reuse. </string>
+    <string name="course_description_python_part5">The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed. </string>
+
+
+    <!-- COURSE DESCRIPTION FOR JAVA-->
+    <string name="course_description_java_part1">Java is a programming language expressly designed for use in the distributed environment of the Internet.</string>
+    <string name="course_description_java_part2">It was designed to have the\"look and feel\" of the C++ language, but it is simpler to use than C++ and enforces an object-oriented programming model. </string>
+    <string name="course_description_java_part3">Java can be used to create complete applications that may run on a single computer or be distributed among servers and clients in a network</string>
+    <string name="course_description_java_part4"> Java can be used to create complete applications that may run on a single computer or be distributed among servers and clients in a network</string>
+    <string name="course_description_java_part5">It can also be used to build a small application module or applet for use as part of a Web page. Applets make it possible for a Web page user to interact with the page.</string>
+l
+    <!-- COURSE DESCRIPTION  FOR C -->
+    <string name="course_description_cpart1">C is a high-level and general purpose programming language that is ideal for developing firmware or portable applications. Originally intended for writing system software, C was developed at Bell Labs by Dennis Ritchie for the Unix Operating System (OS) in the early 1970s.</string>
+    <string name="course_description_cpart2">Ranked among the most widely used languages, C has a compiler for most computer systems and influenced many popular languages – notably C++.</string>
+    <string name="course_description_cpart3">C belongs to the structured, procedural paradigms of languages. It is proven,flexible and powerful and may be used for a variety of different applications.Although high-level, C and assembly language share many of the same attributes. </string>
+    <string name="course_description_cpart4">Following are C programming language features: </string>
+    <string name="course_description_cpart5">Fixed number of keywords, including a set of control primitives, such as if, for, while, switch and do while Multiple logical and mathematical operators, including bit manipulators Multiple assignments may be applied in a single statement. </string>
+    <string name="course_description_cpart6">Function return values are not always required and may be ignored if unneeded. </string>
+    <string name="course_description_cpart7">Typing is static. All data has type but may be implicitly converted. </string>
+    <string name="course_description_cpart8">Basic form of modularity, as files may be separately compiled and linked Control of function and object visibility to other files via extern and static attributes</string>
+
+    <!--Course Description  For CPP-->
+    <string name="course_description_cpppart1">C++ is an object oriented programming (OOP) language, developed by Bjarne Stroustrup, and is an extension of C language. </string>
+    <string name="course_description_cpppart2">. It is therefore possible to code C++ in a \"C style\" or \"object-oriented style.\" </string>
+    <string name="course_description_cpppart3">In certain scenarios, it can be coded in either way and is thus an effective example of a hybrid language. </string>
+    <string name="course_description_cpppart4">C++ is a general purpose object oriented programming language. It is considered to be an intermediate level language, as it encapsulates both high and low level language features. </string>
+    <string name="course_description_cpppart5">Initially, the language was called \'C with classes\’ as it had all properties of C language with an additional concept of \'classes\’. However, it was renamed to C++ in 1983. </string>
+    <string name="course_description_cpppart6">It is pronounced \"C-Plus-Plus.\" </string>
+
+    <!-- Course Description For ANDROID -->
+    <string name="course_description_android_part1">This Android Developer job description template is optimized for posting in online job boards or careers pages.</string>
+    <string name="course_description_android_part2">. It is easy to customize with development skills that you’re looking to add to your company’s mobile app development efforts.</string>
+    <string name="course_description_android_part3">Include: </string>
+    <string name="course_description_android_part4">Designing and developing advanced applications for the Android platform </string>
+    <string name="course_description_android_part5">Bug fixiUnit-testing code for robustness, including edge cases, usability, and general reliability ng and improving application performance </string>
+    <!-- Course Description For HTML -->
+
+    <string name="course_description_html_part1">First developed by Tim Berners-Lee in 1990, HTML is short for HyperText Markup Language. </string>
+    <string name="course_description_html_part2">HTML is used to create electronic documents (called pages) that are displayed on the World </string>
+    <string name="course_description_html_part3">Wide Web. Each page contains a series of connections to other pages called hyperlinks. .</string>
+    <string name="course_description_html_part4">Every web page you see on the Internet is written using one version of HTML code or another. </string>
+
+
+    <!-- Course Description For CSS -->
+
+    <string name="course_description_css_part1">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. CSS 2.1 Version</string>
+    <string name="course_description_css_part2">Use CSS to define styles for your documents, including the design, layout and variations in display for different devices and screen sizes. You can place your CSS in the head tag  of a document with an embedded style sheet, or attach a separate file that defines your styles with an external style sheet.</string>
+    <string name="course_description_css_part3">The PROFILE form is administered by the College Scholarship Service (CSS), thefinancial aid division of the College Board. The CSS PROFILE is required by many private colleges and universities to determine your eligibility for non-governmentfinancial aid, such as the institutions own grants, loans and scholarships.</string>
+    <string name="course_description_css_part4">http://www.littlewebhut.com/ </string>
+
 
     <!-- Course Description For B Plan -->
-    <string name="course_description_title">Course Description</string>
+
     <string name="course_description_bplan_part1">A Business Plan is a formal statement of Business Goals,Reasons they are attainable,and plans for reaching them.It may also contain background information about the organisation or team attempting to reach their goals.</string>
     <string name="course_description_bplan_part2">When the existing business is to assume major change or when planning a new venture,a 3 to 5 year business plan is required</string>
     <string name="course_description_bplan_part3">Perception is the process by which a person selects, organises, and interprets stimuli to create a meaningful picture of the world</string>
@@ -154,11 +251,10 @@
     <string name="pref_header_notifications">Notifications</string>
 
     <string name="pref_title_new_message_notifications">New message notifications</string>
-
     <string name="pref_title_ringtone">Ringtone</string>
     <string name="pref_ringtone_silent">Silent</string>
-
     <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_logged_in">LoggedIn</string>
 
 
 </resources>

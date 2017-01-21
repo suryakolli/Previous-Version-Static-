@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mania.indiaelearn">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -72,9 +74,9 @@
         </activity>
         <activity
             android:name=".CommunityActivity"
-            android:parentActivityName=".CommunityLogin"></activity>
-        <activity android:name=".Community_Upload_Activity"></activity>
-        <activity android:name=".CommunityLogin"></activity>
+            android:parentActivityName=".CommunityLogin" />
+        <activity android:name=".Community_Upload_Activity" />
+        <activity android:name=".CommunityLogin" />
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings"

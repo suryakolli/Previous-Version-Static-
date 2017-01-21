@@ -10,59 +10,65 @@
     android:background="#FFFFFF"
     tools:context="com.mania.indiaelearn.MainActivity">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignWithParentIfMissing="true"
-        android:layout_alignParentTop="true"
+
         android:stretchColumns="*"
-        android:layout_alignParentStart="true">
+        >
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            >
+            android:layout_marginBottom="20dp">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/tech"
+            <TextView
+                android:text="Technology"
+                android:layout_gravity="center"
                 android:id="@+id/technology"
-                android:onClick="classification"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:onClick="classification" />
 
-                android:layout_margin="2dp" />
+            <TextView
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/gov"
                 android:id="@+id/government"
                 android:onClick="classification"
-                android:layout_margin="2dp" />
+                android:layout_gravity="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Government" />
 
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/entre"
+            <TextView
+
                 android:id="@+id/entrepreneur"
                 android:onClick="classification"
-                android:layout_margin="2dp" />
+                android:text="Entrepreneur"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
 
-            <ImageButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/c"
+            <TextView
+
                 android:id="@+id/programming"
-
                 android:onClick="classification"
-                android:layout_margin="2dp" />
+                android:text="Programming"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
         </TableRow>
 
         <TableRow
@@ -73,6 +79,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </TableLayout>
+
+    </ScrollView>
 
 
 </RelativeLayout>
